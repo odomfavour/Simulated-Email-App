@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping-Cart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-12">
+               <div id="content">
+                   <header id="header" class="bg-success">
+                       Send New Email
+                   </header>
+                   <form action="" id="email-form">
+                    <div class="form-group">
+                        <label for="email">To:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message"  class="form-control"></textarea>
+                    </div>
+                    <div class="row" id="loaders">
+                        <img id="sent" src="img/mail.gif" alt="">
+                        <img id="spinner" src="img/spinner.gif">
+                    </div>
+                    <div class="button-area">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button id="sendBtn" type="submit" class="btn btn-outline-secondary btn-block text-center">Send <i class="fa fa-send-o fa-2x pull-right"></i></button>
+
+                            </div>
+                            <div class="col-md-6">
+                                <button id="resetBtn" type="submit" class="btn btn-block btn-primary">Reset <i class="fa fa-trash fa-2x pull-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </div>
+
+    <footer class="py-2">
+
+        <p class="text-center">built by <strong>Ogochukwu Odom</strong>&copy 2020</p>
+        
+    </footer>
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
